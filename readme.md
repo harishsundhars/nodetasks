@@ -14,7 +14,7 @@ This is a Node.js backend server application that connects to a MongoDB database
 1. **Install Dependencies**
    Navigate to the root folder of your project and run the following command to install the necessary packages:
    ```bash
-   npm install
+   npm install```
 
 
 

@@ -12,20 +12,14 @@ This is a Node.js backend server application that connects to a MongoDB database
 ## Installation
 
 1. **Install Dependencies**
-   Navigate to the root folder of your project and run the following command to install the necessary packages:
+ Navigate to the root folder of your project and run the following command to install the necessary packages:
    ```bash
-   npm install```
-
-
-
-
-   Run MongoDB with Docker Navigate to the docker folder and run the following command to start the MongoDB Docker image:
-bash
-
-
-  ```docker-compose up -d
-Start the Application in Development Mode To start the application in development mode, use the following command:
-bash
+   npm install
+  Run MongoDB with Docker Navigate to the docker folder and run the following command to start the MongoDB Docker image:
+   ```bash
+      docker-compose up -d
+  Start the Application in Development Mode To start the application in development mode, use the following command:
+bas
 
 2. **Running the Application**
 ```npm run dev
@@ -34,7 +28,8 @@ bash
 
 
 ```npm run prod
-Sample Payloads
+
+3. **Sample Payloads**
 Task Sample Payload
 To create a new task, use the following JSON payload:
 json

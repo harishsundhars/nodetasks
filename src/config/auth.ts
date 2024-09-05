@@ -9,7 +9,7 @@ export class Config {
             return res.sendStatus(401); 
         }
         if(token && authHeader.split(' ')[0] === 'Bearer'){
-            jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
+            jwt.verify(token, 'newsecret', (err, user) => {
                 if (err) return res.sendStatus(403); 
                 req.user = user; 
                 next(); 

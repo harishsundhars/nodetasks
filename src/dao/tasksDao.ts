@@ -130,7 +130,7 @@ public signindao(userData, callback) {
             email: userData.email,
             id: userData._id,
         }
-        let token = jwt.sign(payload, 'geppettosecret', {
+        let token = jwt.sign(payload, 'newsecret', {
             expiresIn: 86400
         });
         this.userDetails = {
